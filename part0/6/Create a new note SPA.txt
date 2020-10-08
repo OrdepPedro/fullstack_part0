@@ -1,0 +1,13 @@
+title Create a new note
+
+note over browser:form entry: Opa
+note over browser: submit click
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note
+server-->browser: Asks browser to do a new HTTP GET request
+browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/new_note/main.css
+server-->browser: HTML
+server-->browser:data.json
+
+
+note over browser: display new list item: Opa

@@ -1,0 +1,5 @@
+title SPA Diagram
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server-->browser: SINGLE HTML
+server-->browser: JSON Data
